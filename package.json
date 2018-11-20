@@ -1,0 +1,34 @@
+{
+  "name": "incrementals-breaker",
+  "version": "0.0.1",
+  "description": "Breaking browser incremental games",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "ts-compile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clicketyclack/typescript-template.git"
+  },
+  "author": "clicketyclack@users.noreply.github.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/clicketyclack/typescript-template/issues"
+  },
+  "homepage": "https://github.com/clicketyclack/typescript-template#readme",
+  "dependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-typescript": "^5.0.0-alpha.3",
+    "merge2": "^1.2.3",
+    "requirejs": "^2.3.6",
+    "typescript": "^3.1.3"
+  },
+  "devDependencies": {
+    "@types/node": "^10.12.0",
+    "browser-sync": "^2.26.3",
+    "gulp": "^4.0.0",
+    "gulp-requirejs": "^1.2.0",
+    "gulp-sass": "^4.0.2"
+  }
+}
